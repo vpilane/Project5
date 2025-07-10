@@ -122,9 +122,17 @@ button{
 }
 footer{
     display: flex;
+    justify-content: space-between;
     text-align: center;
     align-items: center;
     background-color: rgb(233, 241, 241);
+}
+footer .f6{
+    display: flex;
+    flex-direction: row;
+}
+footer .f7{
+    display: flex;
 }
 footer img{
     margin-left: 100px;
